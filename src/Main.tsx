@@ -9,8 +9,8 @@ const Main = () => {
 
   return (
     <>
-      <ambientLight />
-      <directionalLight position={[1, 0.5, 0.5]} castShadow/>
+      <ambientLight position={[1, 1, 3]}  intensity={3}/>
+      <directionalLight castShadow />
       <ScrollControls pages={7.2}>
         <Scroll>
           <Images />
