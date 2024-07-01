@@ -1,0 +1,8 @@
+Model Information:
+* title:	Generic Low Poly Smartphone
+* source:	https://sketchfab.com/3d-models/generic-low-poly-smartphone-6e5c241e1f3b4808a51b009443ababbd
+* author:	NuclearSnake (https://sketchfab.com/NuclearSnake)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
