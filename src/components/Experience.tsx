@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="absolute top-[380vh] sm:left-[10vw] w-screen sm:w-96 px-12 py-48 space-y-12 bg-[#E4C59E] sm:bg-transparent bg-opacity-90 rounded-xl">
+    <div className="absolute top-[380vh] sm:left-[10vw] w-screen sm:w-96 px-12 py-48 pb-80 space-y-12 sm:bg-transparent bg-opacity-90 rounded-3xl">
         <h1 className="flex items-center justify-start text-3xl font-bold pb-24 space-x-4">
           <div className="w-[5px] h-[25px] bg-mainDeepGreen"></div>
           <p>WORKS</p>
