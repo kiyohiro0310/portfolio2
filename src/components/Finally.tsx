@@ -2,7 +2,7 @@ import React from "react";
 
 const Finally = () => {
   return (
-    <div className="absolute top-[600vh] left-0 sm:left-[60vw] w-screen h-fit px-12 py-64 rounded-3xl z-10">
+    <div className="absolute top-[950vh] left-0 sm:left-[60vw] w-screen h-fit px-12 py-64 rounded-3xl z-10">
       <img
         className="absolute -z-10 bottom-36 right-10 sm:hidden block"
         src="./img/leaf.png"

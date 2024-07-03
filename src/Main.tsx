@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Finally from "./components/Finally";
+import Hobby from "./components/Hobby";
 
 const Main = () => {
 
@@ -11,7 +12,7 @@ const Main = () => {
     <>
       <ambientLight position={[1, 1, 3]}  intensity={3}/>
       <directionalLight castShadow />
-      <ScrollControls pages={7.2}>
+      <ScrollControls pages={10.8}>
         <Scroll>
           <Images />
         </Scroll>
@@ -19,6 +20,7 @@ const Main = () => {
           <Hero />
           <AboutMe />
           <Experience />
+          <Hobby />
           <Finally />
         </Scroll>
       </ScrollControls>

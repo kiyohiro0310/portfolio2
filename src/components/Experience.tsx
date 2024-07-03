@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="absolute top-[380vh] sm:left-[10vw] w-screen sm:w-96 px-12 py-48 pb-80 space-y-12 sm:bg-transparent bg-opacity-90 rounded-3xl">
+    <div className="absolute top-[500vh] sm:left-[10vw] w-screen sm:w-[30vw] px-12 py-48 pb-80 space-y-12 sm:bg-transparent bg-opacity-90 rounded-3xl">
         <h1 className="flex items-center justify-start text-3xl font-bold pb-24 space-x-4">
           <div className="w-[5px] h-[25px] bg-mainDeepGreen"></div>
           <p>WORKS</p>
@@ -90,9 +90,10 @@ const Experience = () => {
                 <img src="./skills/typescript.png" alt="logo" width={30} />
                 <img src="./skills/linux.png" alt="logo" width={30} />
                 <img src="./skills/laravel.png" alt="logo" width={30} />
-                <img src="./skills/nextjs1.png" alt="logo" width={30} />
+
               </div>
               <div className="flex space-x-2">
+                <img src="./skills/nextjs1.png" alt="logo" width={30} />
                 <img src="./skills/docker.png" alt="logo" width={30} />
                 <img src="./skills/mysql.png" alt="logo" width={30} />
                 <img src="./skills/mongodb.svg" alt="logo" width={30} />

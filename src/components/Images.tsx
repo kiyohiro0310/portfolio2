@@ -6,16 +6,18 @@ const Images = () => {
   const { height } = useThree((state) => state.viewport);
   const model = useGLTF("./model/pc/pc.gltf");
   const modelRef = useRef<any>(null);
+
+  const hobby = useGLTF("./model/hobby/scene.gltf")
+  const hobbyRef = useRef<any>(null);
   const scroll = useScroll();
   const groupRef = useRef<any>(null);
 
   useFrame(() => {
     modelRef.current!.position.x = 6 - scroll.range(0, 0.33) * 6.5
-    modelRef.current!.position.y = -2 - scroll.range(0.02, 0.33) * 17.8
-    modelRef.current!.position.z = -10 + scroll.range(0, 0.33) * 8
+    modelRef.current!.position.y = -3 - scroll.range(0.02, 0.33) * 20.8
+    modelRef.current!.position.z = -10 + scroll.range(0, 0.33) * 8.5
     modelRef.current!.rotation.y = -90 + scroll.range(0, 0.33)
     modelRef.current!.rotation.x = 44.5 - scroll.range(0, 0.33) * 0.5
-
   });
 
   return (
@@ -26,7 +28,7 @@ const Images = () => {
       <Image
         url="./img/skmorters.png"
         scale={[1.3, 2.7]}
-        position={[0.6, -height * 3.94, 3]}
+        position={[0.6, -height * 5.09, 3]}
         radius={0.1}
         zoom={1.03}
         transparent
@@ -34,7 +36,7 @@ const Images = () => {
       <Image
         url="./img/pgx.png"
         scale={[1.4, 2.75]}
-        position={[2.4, -height * 4.9, 2.4]}
+        position={[2.4, -height * 6.1, 2.4]}
         radius={0.1}
         zoom={1.05}
         transparent
@@ -42,7 +44,7 @@ const Images = () => {
       <Image
         url="./img/fpw.png"
         scale={[1.4, 2.75]}
-        position={[0.8, -height * 4.5, 1.8]}
+        position={[0.8, -height * 5.65, 1.8]}
         radius={0.1}
         zoom={1.05}
         transparent
@@ -50,7 +52,7 @@ const Images = () => {
       <Image
         url="./img/chatbot.png"
         scale={[1.4, 2.75]}
-        position={[2.4, -height * 4.3, 2.5]}
+        position={[2.4, -height * 5.45, 2.5]}
         radius={0.1}
         zoom={1.05}
         transparent
@@ -58,10 +60,13 @@ const Images = () => {
       <Image
         url="./img/leaf.png"
         scale={1.5}
-        position={[-3, -height * 6.12, 0]}
+        position={[-3, -height * 9.62, 0]}
         radius={0.1}
         transparent
       />
+      <mesh ref={hobbyRef} position={[-5, -60, -8]} rotation={[44.5, 134, 0]} receiveShadow>
+        <primitive object={hobby.scene} />
+      </mesh>
     </group>
   );
 };
