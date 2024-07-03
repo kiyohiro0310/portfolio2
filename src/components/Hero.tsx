@@ -66,7 +66,7 @@ const Hero = () => {
   return (
     <div className="absolute w-96 sm:w-[30vw] top-24 left-4 sm:left-32 sm:top-48">
       <h1 className="name text-6xl font-bold uppercase py-4">Kiyohiro Kambayashi</h1>
-      <div className="relative top-96 sm:top-0">
+      <div className="relative top-80 sm:top-0">
         <div className="divide-y-2">
           <div className="role">
             <h1 className="font-bold">Role:</h1>
