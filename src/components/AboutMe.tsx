@@ -10,10 +10,10 @@ const AboutMe = () => {
         </h1>
         <div>
           <h1 className="text-2xl font-bold pb-5">
-            I&apos;m Kiyo! Glad you to visit here!
+            I&apos;m Kiyo! Glad of you to visit here!
           </h1>
           <div>
-            I&apos;m currently enroling Bachelor of Information and
+            I&apos;m currently enrolled Bachelor of Information and
             Communications Technology at Western Sydney University.
           </div>
         </div>
