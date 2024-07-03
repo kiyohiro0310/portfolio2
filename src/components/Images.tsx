@@ -14,7 +14,7 @@ const Images = () => {
 
   useFrame(() => {
     modelRef.current!.position.x = 6 - scroll.range(0, 0.33) * 6.5
-    modelRef.current!.position.y = -3 - scroll.range(0.02, 0.33) * 20.8
+    modelRef.current!.position.y = -3 - scroll.range(0.00, 0.33) * 23.7
     modelRef.current!.position.z = -10 + scroll.range(0, 0.33) * 8.5
     modelRef.current!.rotation.y = -90 + scroll.range(0, 0.33)
     modelRef.current!.rotation.x = 44.5 - scroll.range(0, 0.33) * 0.5

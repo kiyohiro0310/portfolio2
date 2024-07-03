@@ -1,7 +1,7 @@
 
 const AboutMe = () => {
   return (
-    <div className="absolute top-[240vh] left-0 sm:left-[60vw] w-[100vw] h-fit bg-mainGreen bg-opacity-90 px-12 py-48 pb-80 rounded-3xl">
+    <div className="absolute top-[255vh] left-0 sm:left-[60vw] w-[100vw] h-fit bg-mainGreen bg-opacity-90 px-12 py-48 pb-80 rounded-3xl">
       <div className="sm:w-[30vw] space-y-24">
         <h1 className="flex items-center justify-start text-3xl font-bold pb-24 space-x-4">
           <div className="w-[5px] h-[25px] bg-mainDeepGreen"></div>
