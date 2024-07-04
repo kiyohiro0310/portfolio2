@@ -12,7 +12,7 @@ const Hobby = () => {
             I focus on work life balance as high prioritised target. We don&apos;t eat for work but work for eat, right?
           </p>
           <p>
-            Without haste but without rest. I usually spend time for learn but I do like barbeque on weekend!
+            Without haste but without rest. I spend most of time for learning technology. It&apos;s fun.
           </p>
         </div>
     </div>
